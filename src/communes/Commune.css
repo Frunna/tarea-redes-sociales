@@ -1,0 +1,60 @@
+.container-commune {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.commune-select {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #b6db9c;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  width: 300px;
+  background-color: #ffffff;
+  color: #2c4a21;
+}
+
+.commune-card {
+  background-color: #ffffff;
+  border: 2px solid #b6db9c;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.commune-card h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  color: #5a9b35;
+}
+
+.commune-card p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #2f4d1f;
+}
+
+.loading {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: #5a9b35;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.5s ease forwards;
+}
